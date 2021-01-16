@@ -36,8 +36,8 @@ getInput(path.join(__dirname, 'input.txt'), (input) => {
   // console.log(player1Deck);
   // console.log(player2Deck);
   // return
-  // let answer1 = playCombat(player1Deck.slice(), player2Deck.slice())
-  // console.log(answer1)
+  let answer1 = playCombat(player1Deck.slice(), player2Deck.slice())
+  console.log(answer1)
   let answer2 = playRecursiveCombat(player1Deck.slice(), player2Deck.slice())
   console.log(answer2)
   // console.log(player1Deck)
